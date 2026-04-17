@@ -1,0 +1,3 @@
+- JOB: "intercept -g $DEVNODE | interception-combo | uinput -d $DEVNODE"
+  DEVICE:
+    LINK: /dev/input/by-id/usb-INSTANT_USB_GAMING_MOUSE-event-mouse
